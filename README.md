@@ -83,12 +83,6 @@ npm run dev
 
 ---
 
-## 📷 Ekran Görüntüsü
-
-> (Buraya bir ekran görüntüsü eklersen çok iyi olur. Örn: `frontend/public/screenshot.png`)
-
----
-
 ## 📄 Lisans
 
 MIT License  
