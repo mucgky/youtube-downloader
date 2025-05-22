@@ -17,9 +17,8 @@ function App() {
     try {
       const formattedUrl = formatUrl(url);
       console.log("Formatted URL:", formattedUrl); // URL'yi kontrol edin
-      const response = await fetch(
-        `http://localhost:8000/download?url=${encodeURIComponent(formattedUrl)}`
-      );
+      const response = await fetch(`http://localhost:8000/download?url=${encodeURIComponent(url)}`);
+
       const data = await response.json();
       if (response.ok) {
         setMessage(data.message + " - " + data.file_path);
